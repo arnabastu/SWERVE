@@ -4,7 +4,7 @@ An AI-powered preventive road safety platform that helps drivers understand, mea
 
 ---
 
-## 📖 Overview
+##  Overview
 
 SWERVE is designed to address one of the biggest challenges in road safety: most systems focus on punishment after violations, while very few help drivers improve behaviour before accidents occur.
 
@@ -35,7 +35,7 @@ SWERVE focuses on prevention before accidents.
 
 ---
 
-## 💡 Core Innovation: Behavioural Driving Score
+##  Core Innovation: Behavioural Driving Score
 
 The Behavioural Driving Score is the foundation of SWERVE.
 
@@ -147,7 +147,7 @@ Post-Drive Report
 
 ---
 
-## 🧠 Behaviour Analysis Inputs
+## Behaviour Analysis Inputs
 
 The system uses smartphone sensors to analyse:
 
