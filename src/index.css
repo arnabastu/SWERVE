@@ -1,0 +1,76 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  body {
+    @apply bg-zinc-950 text-slate-100 antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    background: rgba(24, 24, 27, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(63, 63, 70, 0.4);
+  }
+  
+  .glass-panel-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .glass-panel-hover:hover {
+    background: rgba(39, 39, 42, 0.85);
+    border-color: rgba(245, 158, 11, 0.3);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7), 0 0 15px -3px rgba(245, 158, 11, 0.05);
+  }
+
+  .neon-glow-amber {
+    box-shadow: 0 0 20px -3px rgba(245, 158, 11, 0.15), 0 0 8px -2px rgba(245, 158, 11, 0.1);
+  }
+
+  .neon-glow-rose {
+    box-shadow: 0 0 20px -3px rgba(244, 63, 94, 0.2), 0 0 8px -2px rgba(244, 63, 94, 0.15);
+  }
+
+  .neon-glow-emerald {
+    box-shadow: 0 0 20px -3px rgba(16, 185, 129, 0.2), 0 0 8px -2px rgba(16, 185, 129, 0.15);
+  }
+
+  .text-glow-amber {
+    text-shadow: 0 0 8px rgba(245, 158, 11, 0.4);
+  }
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(0.98);
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s infinite ease-in-out;
+}
+
+@keyframes scan-line {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.animate-scan-line {
+  animation: scan-line 6s infinite linear;
+}
