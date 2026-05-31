@@ -14,7 +14,7 @@ The platform combines behavioural driving analysis, route risk intelligence, leg
 
 ##  Problem 
 
-Road accidents remain one of the leading causes of daeth in India.
+Road accidents remain one of the leading causes of death in India.
 
 Common causes include:
 
