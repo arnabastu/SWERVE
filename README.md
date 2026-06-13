@@ -1,4 +1,4 @@
-# SWERVE – Vision Zero India 🚦
+# SWERVE – Vision Zero India 
 
 An AI-powered preventive road safety platform that helps drivers understand, measure, and improve their driving behaviour through a real-time Behavioural Driving Score.
 
